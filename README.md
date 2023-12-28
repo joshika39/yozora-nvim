@@ -6,6 +6,7 @@ This config uses Packer as a package manager
 - `prettier`
 - `tree-sitter`
 - `ripgrep`
+- `eslint`, `eslint_d`
 
 ## TODOs
 
