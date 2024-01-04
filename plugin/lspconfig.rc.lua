@@ -28,4 +28,12 @@ nvim_lsp.lua_ls.setup {
   }
 }
 
+nvim_lsp.tsserver.setup {
+  settings = {
+    implicitProjectConfiguration = {
+      checkJs = true
+    },
+  }
+}
+
 nvim_lsp.clangd.setup({})

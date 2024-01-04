@@ -52,4 +52,8 @@ packer.startup(function(use)
   -- Git
   use 'lewis6991/gitsigns.nvim'
   use 'dinhhuy258/git.nvim'
+  use 'akinsho/git-conflict.nvim'
+
+  -- AI
+  use 'github/copilot.vim'
 end)
