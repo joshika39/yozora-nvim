@@ -56,4 +56,7 @@ packer.startup(function(use)
 
   -- AI
   use 'github/copilot.vim'
+
+  -- Social
+  use 'andweeb/presence.nvim'
 end)
