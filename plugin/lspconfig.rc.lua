@@ -36,4 +36,12 @@ nvim_lsp.tsserver.setup {
   }
 }
 
-nvim_lsp.clangd.setup({})
+nvim_lsp.pyright.setup({})
+
+nvim_lsp.clangd.setup({
+  on_attach = on_attach,
+  cmd = {
+    "clangd",
+    "--offset-encoding=utf-16",
+  },
+})
