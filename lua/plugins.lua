@@ -22,6 +22,19 @@ packer.startup(function(use)
   }
   use 'norcalli/nvim-colorizer.lua'
   use 'kyazdani42/nvim-web-devicons'
+  use({
+    "iamcco/markdown-preview.nvim",
+    run = function() vim.fn["mkdp#util#install"]() end,
+  })
+  use({
+    "iamcco/markdown-preview.nvim",
+    run = "cd app && npm install",
+    setup = function()
+      vim.g.mkdp_filetypes = {
+        "markdown" }
+    end,
+    ft = { "markdown" },
+  })
 
   -- LSPs and complition
   use 'neovim/nvim-lspconfig'
@@ -32,6 +45,7 @@ packer.startup(function(use)
   use 'jose-elias-alvarez/null-ls.nvim'
   use 'MunifTanjim/prettier.nvim'
   use 'nvimdev/lspsaga.nvim'
+
   -- Helpers
   use 'windwp/nvim-autopairs'
   use 'windwp/nvim-ts-autotag'
@@ -43,6 +57,9 @@ packer.startup(function(use)
 
   --Snippets
   use 'L3MON4D3/LuaSnip'
+
+  -- UI
+  use 'MunifTanjim/nui.nvim'
 
   -- File browsers
   use 'nvim-lua/plenary.nvim'
@@ -56,6 +73,7 @@ packer.startup(function(use)
 
   -- AI
   use 'github/copilot.vim'
+  use 'JackMort/ChatGPT.nvim'
 
   -- Social
   use 'andweeb/presence.nvim'
