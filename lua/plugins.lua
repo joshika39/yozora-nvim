@@ -32,10 +32,12 @@ packer.startup(function(use)
   use 'jose-elias-alvarez/null-ls.nvim'
   use 'MunifTanjim/prettier.nvim'
   use 'nvimdev/lspsaga.nvim'
+
   -- Helpers
   use 'windwp/nvim-autopairs'
   use 'windwp/nvim-ts-autotag'
   use 'akinsho/nvim-bufferline.lua'
+  use 'christoomey/vim-tmux-navigator'
 
   -- Mason
   use 'williamboman/mason.nvim'
