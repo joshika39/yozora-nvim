@@ -37,7 +37,7 @@ packer.startup(function(use)
   use 'windwp/nvim-autopairs'
   use 'windwp/nvim-ts-autotag'
   use 'akinsho/nvim-bufferline.lua'
-  use 'christoomey/vim-tmux-navigator'
+  -- use 'christoomey/vim-tmux-navigator'
 
   -- Mason
   use 'williamboman/mason.nvim'
