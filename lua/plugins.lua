@@ -22,6 +22,7 @@ packer.startup(function(use)
   }
   use 'norcalli/nvim-colorizer.lua'
   use 'kyazdani42/nvim-web-devicons'
+  use 'norcalli/nvim-terminal.lua'
 
   -- LSPs and complition
   use 'neovim/nvim-lspconfig'
