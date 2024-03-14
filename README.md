@@ -28,6 +28,8 @@ This config uses Packer as a package manager
 
 # Installation
 
+0. Instal packer as the package manager: https://github.com/wbthomason/packer.nvim?tab=readme-ov-file#quickstart
+
 ## Required packages
 - `pyright`
 - `prettier`
@@ -46,6 +48,8 @@ git clone https://github.com/joshika39/yozora-nvim ~/.config/nvim
 # You can install the required packages by running the following command either with npm or your package manager of choice
 npm install -g pyright prettier tree-sitter-cli eslint eslint_d
 ```
+
+3. Enter neovim and run `:PackerInstall`
 
 ## Keybindings
 
