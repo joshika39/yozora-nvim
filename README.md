@@ -51,14 +51,23 @@ npm install -g pyright prettier tree-sitter-cli eslint eslint_d
 
 ### Normal mode
 
-- `sf` - Telescope browse files
-- `;r` - Fuzzy find in the current project
-- `gd` - Go to definition
-- `gr` - Find and replace references
-- `K` - Show documentation
-- `Ctrl + j` - Move to next lsp diagnostic
-- `gD` - Find word under cursor
-- `gR` - Replace start from cursor
+| Keybinding | Description |
+| ---------- | ----------- |
+| `sf` | Telescope browse files |
+| `;r` | Fuzzy find in the current project |
+| `;e` | Show all diagnostics |
+| `\\\\` | Show all buffers |
+| `gd`| Go to definition |
+| `gr`| Find and replace references |
+| `K` | Show documentation |
+| `Ctrl + j` | Move to next lsp diagnostic |
+| `Ctrl + k` | Move to previous lsp diagnostic |
+| `gD` |  Find word under cursor |
+| `gR` |  Replace start from cursor |
+| `Ctrl + w + h` | Move to the left split |
+| `Ctrl + w + j` | Move to the bottom split |
+| `Ctrl + w + k` | Move to the top split |
+| `Ctrl + w + l` | Move to the right split |
 
 # Show-off
 
@@ -70,15 +79,22 @@ npm install -g pyright prettier tree-sitter-cli eslint eslint_d
 
 ![image](./assets/preview-lsp.png)
 
+![image](./assets/preview-lsp-hints.png)
+
 ### Telescope
 
 ![image](./assets/preview-telescope.png)
 
+### Tabs
+
+![image](./assets/preview-tabs.png)
+
 ### Git
 
-![image](./assets/preview-git.png)
+- You can see the git blame on every line.
+- The branch name is shown in the statusline.
 
-### Statusline and Bufferline
+### Statusline and Bufferline with split views
 
 ![image](./assets/preview-statusline.png)
 
