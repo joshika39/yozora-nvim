@@ -56,7 +56,7 @@ npm install -g pyright prettier tree-sitter-cli eslint eslint_d
 | `sf` | Telescope browse files |
 | `;r` | Fuzzy find in the current project |
 | `;e` | Show all diagnostics |
-| `\\\\` | Show all buffers |
+| `\\` | Show all buffers |
 | `gd`| Go to definition |
 | `gr`| Find and replace references |
 | `K` | Show documentation |
