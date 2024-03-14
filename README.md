@@ -96,7 +96,7 @@ npm install -g pyright prettier tree-sitter-cli eslint eslint_d
 
 ### Statusline and Bufferline with split views
 
-![image](./assets/preview-statusline.png)
+![image](./assets/preview-split.png)
 
 Show some love ❤️ and support 🙌 by starring the repository.
 
