@@ -13,8 +13,11 @@ local is_windows = has "win32"
 
 if is_linux then
   require("linux")
+  print("Running on Linux")
 elseif is_mac then
   require("mac")
+  print("Running on Mac")
 elseif is_windows then
   require("windows")
+  print("Running on Windows")
 end
