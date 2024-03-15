@@ -4,6 +4,8 @@ if (not status) then
   return
 end
 
+print("Packer initialized")
+
 vim.cmd [[packadd packer.nvim]]
 
 packer.startup(function(use)
