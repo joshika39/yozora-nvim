@@ -2,14 +2,19 @@
 -- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
 -- Add any additional keymaps here
 
+local discipline = require("yozora.discipline")
+-- discipline.cowboy() -- TODO: Make it a toggleable command
+
 local keymap = vim.keymap
 local opts = { noremap = true, silent = true }
+
+keymap.set("n", "<leader>rn", ":IncRename ")
 
 keymap.set("n", "+", "<C-a>")
 keymap.set("n", "-", "<C-x>")
 
 -- Delete a word backwards
-keymap.set("n", "dw", "vb_d")
+keymap.set("n", "dw", 'vb"_d')
 
 -- Select all
 keymap.set("n", "<C-a>", "gg<S-v>G")
