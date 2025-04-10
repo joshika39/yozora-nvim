@@ -22,6 +22,7 @@ return {
         "scss",
         "sql",
         "svelte",
+        "elixir",
       },
 
       -- matchup = {
